@@ -5,6 +5,7 @@
 <a href="https://codeclimate.com/github/VladimirGlushchenko/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/4398405bbe15bade5548/maintainability" /></a>
 
 Brain-even
+
 [![asciicast](https://asciinema.org/a/544839.svg)](https://asciinema.org/a/544839)
 
 Brain-calc
