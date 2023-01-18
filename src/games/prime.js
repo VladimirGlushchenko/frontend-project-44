@@ -3,7 +3,8 @@
 /* eslint-disable import/prefer-default-export */
 
 import readlineSync from 'readline-sync';
-import { greeting, randomNumber } from '../index.js';
+import getRandomInRange from '../utils.js';
+import greeting from '../index.js';
 
 const isPrime = (num) => {
   if (num === 0 || num === 1) { return false; }
@@ -29,7 +30,7 @@ const gamePrime = () => {
   const name = greeting();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
-    const a = randomNumber(0, 60);
+    const a = getRandomInRange(0, 60);
     console.log(`Question: ${a}`);
     const boolValue = isPrime(a);
     const answerUser = readlineSync.question('Your answer: ');

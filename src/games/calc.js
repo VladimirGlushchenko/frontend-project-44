@@ -3,11 +3,12 @@
 /* eslint-disable import/extensions */
 
 import readlineSync from 'readline-sync';
-import { greeting, randomNumber } from '../index.js';
+import getRandomInRange from '../utils.js';
+import greeting from '../index.js';
 
 const question = () => {
-  const a = randomNumber(10, 30);
-  const b = randomNumber(0, 10);
+  const a = getRandomInRange(10, 30);
+  const b = getRandomInRange(0, 10);
   let result;
   let resultString;
   if (Math.random() < 0.33) {

@@ -5,14 +5,15 @@
 /* eslint-disable no-unused-vars */
 
 import readlineSync from 'readline-sync';
-import { greeting, randomNumber } from '../index.js';
+import getRandomInRange from '../utils.js';
+import greeting from '../index.js';
 
 const gameGcd = () => {
   const name = greeting();
   console.log('Find the greatest common divisor of given numbers.');
   for (let i = 0; i < 3; i += 1) {
-    const a = randomNumber(1, 100);
-    const b = randomNumber(1, 100);
+    const a = getRandomInRange(1, 100);
+    const b = getRandomInRange(1, 100);
     const resultString = `${a} ${b}`;
     console.log(`Question: ${resultString}`);
     const answerUser = readlineSync.question('Your answer: ');

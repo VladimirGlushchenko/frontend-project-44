@@ -4,22 +4,23 @@
 /* eslint-disable import/extensions */
 
 import readlineSync from 'readline-sync';
-import { greeting, randomNumber } from '../index.js';
+import getRandomInRange from '../utils.js';
+import greeting from '../index.js';
 
 const gameProgression = () => {
   const name = greeting();
   console.log('What number is missing in the progression?');
   for (let i = 0; i < 3; i += 1) {
     const arr = [];
-    const beginNumber = randomNumber(1, 15);
-    const stepNumber = randomNumber(1, 10);
+    const beginNumber = getRandomInRange(1, 15);
+    const stepNumber = getRandomInRange(1, 10);
     let arrNumber = beginNumber;
     arr.push(arrNumber);
     for (let k = 0; k < 9; k += 1) {
       arrNumber += stepNumber;
       arr.push(arrNumber);
     }
-    const randomIndex = randomNumber(0, 9);
+    const randomIndex = getRandomInRange(0, 9);
     const correctNumber = arr[randomIndex];
     arr[randomIndex] = '..';
     console.log(`Question: ${arr.join(' ')}`);

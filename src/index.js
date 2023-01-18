@@ -1,11 +1,8 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable no-console */
 
 import readlineSync from 'readline-sync';
-
-const randomNumber = (min, max) => {
-  const ranInt = Math.random() * (max - min) + min;
-  return Math.floor(ranInt);
-};
+import getRandomInRange from 'utils.js';
 
 const greeting = () => {
   console.log('Welcome to the Brain Games!');
@@ -15,8 +12,8 @@ const greeting = () => {
 };
 
 const question = () => {
-  const a = randomNumber(10, 30);
-  const b = randomNumber(0, 10);
+  const a = getRandomInRange(10, 30);
+  const b = getRandomInRange(0, 10);
   let result;
   let resultString;
   if (Math.random() < 0.33) {
@@ -34,5 +31,5 @@ const question = () => {
 };
 
 export {
-  randomNumber, greeting, question,
+  greeting, question,
 };
