@@ -8,22 +8,26 @@
 
 <a href="https://codeclimate.com/github/VladimirGlushchenko/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/4398405bbe15bade5548/maintainability" /></a>
 
-Brain-even game
+<h3 align="center">List of my games</h3>
+
+<ul>
+  <li>Brain-even game</li>
 
 [![asciicast](https://asciinema.org/a/544839.svg)](https://asciinema.org/a/544839)
 
-Brain-calc game
+  <li>Brain-calc game</li>
 
 [![asciicast](https://asciinema.org/a/545955.svg)](https://asciinema.org/a/545955)
 
-Brain-gcd game
+  <li>Brain-gcd game</li>
 
 [![asciicast](https://asciinema.org/a/546589.svg)](https://asciinema.org/a/546589)
 
-Brain-progression game
+  <li>Brain-progression game</li>
 
 [![asciicast](https://asciinema.org/a/547030.svg)](https://asciinema.org/a/547030)
 
-Brain-prime game
+  <li>Brain-prime game</li>
 
 [![asciicast](https://asciinema.org/a/547761.svg)](https://asciinema.org/a/547761)
+</ul>
