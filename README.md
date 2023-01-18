@@ -14,6 +14,7 @@
   <li><h4>Brain-even game</h4></li>
 
 [![asciicast](https://asciinema.org/a/544839.svg)](https://asciinema.org/a/544839)
+<script id="asciicast-544839" src="https://asciinema.org/a/544839.js" async></script>
 
   <li><h4>Brain-calc game</h4></li>
 
