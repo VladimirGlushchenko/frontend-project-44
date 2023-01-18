@@ -4,12 +4,12 @@
 
 <a href="https://codeclimate.com/github/VladimirGlushchenko/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/4398405bbe15bade5548/maintainability" /></a>
 
-https://asciinema.org/a/VdgCuVDxxG2QTOzDE0AuHWVcy 
+[![asciicast](https://asciinema.org/a/544839.svg)](https://asciinema.org/a/544839)
 
-https://asciinema.org/a/545955
+[![asciicast](https://asciinema.org/a/545955.svg)](https://asciinema.org/a/545955)
 
-https://asciinema.org/a/546589
+[![asciicast](https://asciinema.org/a/546589.svg)](https://asciinema.org/a/546589)
 
-https://asciinema.org/a/547030
+[![asciicast](https://asciinema.org/a/547030.svg)](https://asciinema.org/a/547030)
 
-https://asciinema.org/a/547761
+[![asciicast](https://asciinema.org/a/547761.svg)](https://asciinema.org/a/547761)

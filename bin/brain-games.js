@@ -2,6 +2,6 @@
 /* eslint-disable import/named */
 /* eslint-disable import/extensions */
 
-import { questionUserName } from '../src/cli.js';
+import { makeWelcome } from '../src/cli.js';
 
-questionUserName();
+makeWelcome();

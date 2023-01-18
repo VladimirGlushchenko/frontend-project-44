@@ -10,8 +10,7 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "description": "[![Actions Status](https://github.com/VladimirGlushchenko/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/VladimirGlushchenko/frontend-project-44/actions)",
-  "main": "index.js",
+  "description": "My first project. Here are the mini-games. You may like them.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
