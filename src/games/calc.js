@@ -4,7 +4,7 @@
 
 import readlineSync from 'readline-sync';
 import getRandomInRange from '../utils.js';
-import greeting from '../index.js';
+import { greeting } from '../index.js';
 
 const question = () => {
   const a = getRandomInRange(10, 30);

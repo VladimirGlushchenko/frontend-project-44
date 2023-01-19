@@ -1,11 +1,11 @@
+/* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
-/* eslint-disable import/extensions */
 
 import readlineSync from 'readline-sync';
 import getRandomInRange from '../utils.js';
-import greeting from '../index.js';
+import { greeting } from '../index.js';
 
 const gameProgression = () => {
   const name = greeting();

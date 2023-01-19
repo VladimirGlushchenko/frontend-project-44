@@ -1,8 +1,9 @@
+/* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
 /* eslint-disable no-console */
 
 import readlineSync from 'readline-sync';
-import getRandomInRange from 'utils.js';
+import getRandomInRange from './utils.js';
 
 const greeting = () => {
   console.log('Welcome to the Brain Games!');

@@ -1,10 +1,11 @@
+/* eslint-disable import/named */
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
 /* eslint-disable import/prefer-default-export */
 
 import readlineSync from 'readline-sync';
 import getRandomInRange from '../utils.js';
-import greeting from '../index.js';
+import { greeting } from '../index.js';
 
 const isPrime = (num) => {
   if (num === 0 || num === 1) { return false; }
