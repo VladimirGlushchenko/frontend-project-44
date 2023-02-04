@@ -3,8 +3,36 @@
 /* eslint-disable no-console */
 
 import readlineSync from 'readline-sync';
-import getRandomInRange from './utils.js';
+/* import getRandomInRange from './utils.js'; */
 
+/*
+не понимаю что мне в первом пунке по правкам надо добавить в файл ридми
+(Как скачать проект, как установить, как запустить.).
+В этом модуле я приятно удивлен, как красиво можно было все сделать
+*/
+const gameEngine = (rules, generateRound) => {
+  console.log('Welcome to the Brain Games!');
+  const nameUser = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${nameUser}!`);
+  console.log(rules);
+  const roundsCount = 3;
+  for (let i = 0; i < roundsCount; i += 1) {
+    const [question, answer] = generateRound();
+    console.log(question);
+    const answerUser = readlineSync.question('Your answer: ');
+    if (answer === answerUser) {
+      console.log('Correct!');
+    } else {
+      console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${nameUser}!`);
+      return;
+    }
+  }
+  console.log(`Congratulations, ${nameUser}!`);
+};
+
+export default gameEngine;
+
+/*
 const greeting = () => {
   console.log('Welcome to the Brain Games!');
   const nameUser = readlineSync.question('May I have your name? ');
@@ -34,3 +62,4 @@ const question = () => {
 export {
   greeting, question,
 };
+*/
