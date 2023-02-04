@@ -27,7 +27,7 @@ const stringToBool = (str) => {
   return false;
 };
 
-const gamePrime = () => {
+const runGamePrime = () => {
   const name = greeting();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
@@ -47,4 +47,4 @@ const gamePrime = () => {
     }
   }
 };
-export { gamePrime };
+export { runGamePrime };

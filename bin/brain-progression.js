@@ -2,6 +2,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable import/extensions */
 
-import { gameProgression } from '../src/games/progression.js';
+import { runGameProgression } from '../src/games/progression.js';
 
-gameProgression();
+runGameProgression();

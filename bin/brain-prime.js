@@ -2,6 +2,6 @@
 /* eslint-disable import/extensions */
 /* eslint-disable no-unused-vars */
 
-import { gamePrime } from '../src/games/prime.js';
+import { runGamePrime } from '../src/games/prime.js';
 
-gamePrime();
+runGamePrime();

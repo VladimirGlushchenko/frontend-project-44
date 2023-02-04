@@ -8,7 +8,7 @@ import readlineSync from 'readline-sync';
 import getRandomInRange from '../utils.js';
 import { greeting } from '../index.js';
 
-const gameGcd = () => {
+const runGameGcd = () => {
   const name = greeting();
   console.log('Find the greatest common divisor of given numbers.');
   for (let i = 0; i < 3; i += 1) {
@@ -43,4 +43,4 @@ const gameGcd = () => {
   }
 };
 
-export { gameGcd };
+export { runGameGcd };

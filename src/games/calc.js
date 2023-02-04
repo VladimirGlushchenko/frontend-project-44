@@ -25,7 +25,7 @@ const question = () => {
   return result;
 };
 
-const gameCalc = () => {
+const runCalcGame = () => {
   const name = greeting();
   console.log('What is the result of the expression?');
   for (let i = 0; i < 3; i += 1) {
@@ -43,4 +43,4 @@ const gameCalc = () => {
   }
 };
 
-export { gameCalc };
+export { runCalcGame };

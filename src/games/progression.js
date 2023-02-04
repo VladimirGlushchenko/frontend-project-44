@@ -7,7 +7,7 @@ import readlineSync from 'readline-sync';
 import getRandomInRange from '../utils.js';
 import { greeting } from '../index.js';
 
-const gameProgression = () => {
+const runGameProgression = () => {
   const name = greeting();
   console.log('What number is missing in the progression?');
   for (let i = 0; i < 3; i += 1) {
@@ -37,4 +37,4 @@ const gameProgression = () => {
   }
 };
 
-export { gameProgression };
+export { runGameProgression };
