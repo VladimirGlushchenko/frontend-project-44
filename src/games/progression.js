@@ -1,7 +1,4 @@
-/* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
-/* eslint-disable no-console */
-/* eslint-disable no-unused-vars */
 
 import readlineSync from 'readline-sync';
 import getRandomInRange from '../utils.js';

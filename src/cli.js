@@ -1,5 +1,4 @@
 /* eslint-disable import/prefer-default-export */
-/* eslint-disable no-console */
 
 import readlineSync from 'readline-sync';
 
